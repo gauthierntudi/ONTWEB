@@ -1,0 +1,29 @@
+@font-face { font-family: PFDinDisplayProBlack; src: url('../../fonts/PFDinDisplayPro-Black.ttf');}
+@font-face { font-family: PFDinDisplayPro-Bold; src: url('../../fonts/PFDinDisplayPro-Bold.ttf');}
+@font-face { font-family: PFDinDisplayPro-Regular; src: url('../../fonts/PFDinDisplayPro-Regular.ttf');}
+@font-face { font-family: PFDinDisplayPro-Light; src: url('../../fonts/PFDinDisplayPro-Light.ttf');}
+@font-face { font-family: PFDinDisplayPro-Thin; src: url('../../fonts/PFDinDisplayPro-Thin.ttf');}
+
+.DinProBlack { font-family: PFDinDisplayProBlack!important; }
+.DinProBold { font-family: PFDinDisplayPro-Bold!important; }
+.DinProRegular { font-family: PFDinDisplayPro-Regular!important; }
+.DinProLight { font-family: PFDinDisplayPro-Light!important; }
+.DinProThin { font-family: PFDinDisplayPro-Thin!important; }
+
+
+@font-face { font-family: AvenirLTStd-Black; src: url('../../fonts/AvenirLTStd-Black.otf');}
+@font-face { font-family: AvenirLTStd-Heavy; src: url('../../fonts/AvenirLTStd-Heavy.otf');}
+@font-face { font-family: AvenirLTStd-Medium; src: url('../../fonts/AvenirLTStd-Medium.otf');}
+@font-face { font-family: AvenirLTStd-Roman; src: url('../../fonts/AvenirLTStd-Roman.otf');}
+@font-face { font-family: AvenirLTStd-Book; src: url('../../fonts/AvenirLTStd-Book.otf');}
+@font-face { font-family: AvenirLTStd-Light; src: url('../../fonts/AvenirLTStd-Light.otf');}
+
+.AvenirBlack { font-family: AvenirLTStd-Black!important; }
+.AvenirBold { font-family: AvenirLTStd-Heavy!important; }
+.AvenirMedium { font-family: AvenirLTStd-Medium!important; }
+.AvenirRoman { font-family: AvenirLTStd-Roman!important; }
+.AvenirBook { font-family: AvenirLTStd-Book!important; }
+.AvenirLight { font-family: AvenirLTStd-Light!important; }
+
+
+
