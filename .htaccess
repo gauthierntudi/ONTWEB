@@ -1,0 +1,27 @@
+RewriteEngine on
+
+RewriteRule ^accueil?$  index.php
+RewriteRule ^home?$  index.php
+
+RewriteRule ^partenaires?$  partenaires.php
+RewriteRule ^qui-sommes-nous?$  about.php
+RewriteRule ^intervenants?$  intervenant.php
+RewriteRule ^hebergement?$  hebergement.php
+RewriteRule ^excursions?$  excursion.php
+RewriteRule ^actualites?$  actualites.php
+RewriteRule ^visa?$  visa.php
+RewriteRule ^conditions-sanitaires?$  sante.php
+RewriteRule ^participants?$  speakerss.php
+RewriteRule ^sponsors?$  sponsors.php
+RewriteRule ^medias?$  media.php
+RewriteRule ^contact?$  contact.php
+
+RewriteRule ^mentions-legales?$  mentions.php
+RewriteRule ^politique-en-matiere-de-cookies?$  cookies.php
+RewriteRule ^politique-de-confidentialite?$  confidentialite.php
+RewriteRule ^conditions-utilisation?$  informations-juridique.php
+
+#ErrorDocument 404 https://favorgroup.net/error.php
+
+RewriteRule ^(.*)__([0-9]+) view.php?kimpi=$1&article=$2
+RewriteRule ^(.*)([0-9]+).ajax view-galeries.php?article=$2
